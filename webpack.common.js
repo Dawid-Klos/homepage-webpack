@@ -5,7 +5,8 @@ module.exports = {
   /* here you can define another js file */
   entry: {
     index: "./src/js/index.js",
-    another: "./src/js/another.js",
+    hamburger: "./src/js/hamburger.js",
+    text: "./src/js/text.js",
   },
   output: {
     filename: "[name].[hash:8].js",
@@ -54,14 +55,26 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/index.html",
       inject: true,
-      chunks: ["index"],
+      chunks: ["index", "text", "hamburger"],
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/pages/another.html",
+      template: "./src/pages/nauka-css.html",
       inject: true,
-      chunks: ["index", "another"],
-      filename: "another.html",
+      chunks: ["index", "hamburger"],
+      filename: "nauka-css.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-js.html",
+      inject: true,
+      chunks: ["index", "hamburger"],
+      filename: "nauka-js.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-html.html",
+      inject: true,
+      chunks: ["index", "hamburger"],
+      filename: "nauka-html.html",
     }),
   ],
 };

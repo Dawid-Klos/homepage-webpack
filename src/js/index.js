@@ -3,6 +3,10 @@ import moment from 'moment';
 
 /* place your code below */
 
+const time = document.querySelector('.time--js');
+time.innerHTML = moment().startOf('day').fromNow();
+
+
 const name = 'Dawid';
 const age = 24;
 function greeting(name,age) {

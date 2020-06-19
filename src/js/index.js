@@ -3,7 +3,7 @@ import moment from 'moment';
 
 /* place your code below */
 
-const time = document.querySelector('.time--js');
+const time = document.querySelector('.time__display--js');
 time.innerHTML = moment().startOf('day').fromNow();
 
 

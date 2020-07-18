@@ -1,4 +1,4 @@
-![cover](https://iv.pl/images/4bc84f0bc30e0853e6e364bd719bbe6e.png)
+![websitePhoto](https://iv.pl/images/311e93ba4b1dc2baecbcf4c4561e76e3.png)
 
 # My homepage
 
@@ -6,7 +6,7 @@ My first, very simple website created for learning of Frontend.
 
 ## Live view
 
-[Click here to see my homepage website](https://github.com/Dawid-Klos/homepage-webpack/deployments/activity_log?environment=github-pages)
+[Click here to see my homepage website](https://dawid-klos.github.io/homepage-webpack)
 
 ### Technologies
 

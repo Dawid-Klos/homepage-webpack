@@ -1,6 +1,6 @@
 # My homepage
 
-One from the very first websites to learning of frontend.
+One from my very first websites done during [WTF: Co ten Frontend?](https://cotenfrontend.pl/) course.  
 
 ## Live view
 

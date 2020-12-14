@@ -1,2 +1,2 @@
 const information = document.querySelector('.js');
-information.innerHTML = 'Ten tekst został "wszczyknięty" za pomocą JavaScriptu :D';
+information.innerHTML = 'Ten tekst został stworzony za pomocą JavaScriptu.';

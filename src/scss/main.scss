@@ -23,9 +23,9 @@ html {
     0 29.7px 7.1px rgba(0, 0, 0, 0.015), 0 55.4px 15.9px rgba(0, 0, 0, 0.018),
     0 91px 83px rgba(0, 0, 0, 0.03);
     &__image {
-      border-radius: 50%;
-      width: 50%;
-      height: 50%;
+      border-radius: 48%;
+      width: 40%;
+      height: 30%;
     }
     &__description {
       padding: 10px;
@@ -195,6 +195,9 @@ html {
 ;
       &__copyrights {
         line-height: 30px;
+      }
+      &__link {
+        padding: 2px;
       }
 }
 .hamburger {
